@@ -1,17 +1,32 @@
 import React, { Component } from 'react';
+import '../SearchBox.css';
+import SearchCriteria from './SearchCriteria';
 
 class SearchBox extends Component {
     constructor(props) {
         super();
         this.state =  {
-            name: "Eunice"
+            name: "Comp Sci Waifu"
 
         };
     }
   render() {
     return (
-      <div>
-       This is a searchbox. For {this.state.name}
+      <div id='SearchBox'>
+        Location
+        <SearchCriteria category="Location" />
+
+        Dietary Restrictions
+        <SearchCriteria category="Medical" />
+        <SearchCriteria category="LifeStyle" />
+        <SearchCriteria category="Religious" />
+        Cuisine: 
+        <SearchCriteria category="Cuisine" />
+        Restaurant:
+        <SearchCriteria category="Restaurant" />
+        Flavours: 
+        <SearchCriteria category="Flavours" />
+        
       </div>
     )
   }
