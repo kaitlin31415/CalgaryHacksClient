@@ -13,8 +13,20 @@ class SearchBox extends Component {
   render() {
     return (
       <div id='SearchBox'>
-        This is a searchbox. For {this.state.name}
+        Location
+        <SearchCriteria category="Location" />
+
+        Dietary Restrictions
         <SearchCriteria category="Medical" />
+        <SearchCriteria category="LifeStyle" />
+        <SearchCriteria category="Religious" />
+        Cuisine: 
+        <SearchCriteria category="Cuisine" />
+        Restaurant:
+        <SearchCriteria category="Restaurant" />
+        Flavours: 
+        <SearchCriteria category="Flavours" />
+        
       </div>
     )
   }
