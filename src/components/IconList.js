@@ -4,20 +4,16 @@ class IconList extends Component {
     constructor(props){
         super();
         this.state = {
-            listOfIDs: props.listOfIDs
+            listOfIcons: props.listOfIcons
         };
     }
     render() {   
-     const listNums = this.state.listOfIDs.map((number) => 
+     const listNums = this.state.listOfIcons.map((number) => 
      <li>{number}</li>
      );
         return (
             <div>
-                <h1>Food Name: {this.state.name}</h1>
-                <h1>Restaurant: {this.state.restaurant}</h1>
-       
                 <ul>{listNums}</ul>
-
             </div>
         );
     }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import SearchBox from './SearchBox';
 import FoodItem from './FoodItem';
-var temp = ["icon1", "icon2", "icon3", "oui"];
+var tempFlavor = ["iconSweet", "iconSavory", "iconSour"];
+var tempDiet = ["Vegan", "Vegitarien", "Celic"];
 class HomePage extends Component {
   
   render() {
@@ -9,7 +10,7 @@ class HomePage extends Component {
       <div>
        tnjkafnkla.dnfk;ldsanfklaks
        <SearchBox></SearchBox>
-       <FoodItem name="BUrger" price={5.25} restaurant="A" location="" calories={100}  listOfIDs={temp}/>
+       <FoodItem name="BUrger" price={5.25} restaurant="A" location="" calories={100}  listOfFlavors={tempFlavor} listOfDiets={tempDiet} />
       </div>
     )
   }
