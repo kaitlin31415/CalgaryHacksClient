@@ -4,7 +4,7 @@ class SearchCriteria extends Component {
     constructor(props) {
         super();
         this.state =  {
-            category: ""
+            category: props.category
 
         };
     }
