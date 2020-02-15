@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchBox from './SearchBox';
 import FoodItem from './FoodItem';
-var temp = ["icon1", "icon2", "icon3"];
+var temp = ["icon1", "icon2", "icon3", "oui"];
 class HomePage extends Component {
   
   render() {

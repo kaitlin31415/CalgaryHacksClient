@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import IconList from './IconList';
 
 class FoodItem extends Component {
   constructor(props) {
@@ -14,23 +15,14 @@ class FoodItem extends Component {
   }
   
   render() {
-    /*
-    const l =  () => [1,2,3,4].map(function (item) {
-      return <li> {item} </li>;
-      
-    });
-    */
-   //const numbers = [1, 2, 3, 4, 5];
-   const listNums = this.state.listOfIDs.map((number) => 
-    <li>{number}</li>
-   );
-  
     return (
       <div>
         <h1>Food Name: {this.state.name}</h1>
         <h1>Restaurant: {this.state.restaurant}</h1>
        
-        <ul>{listNums}</ul>
+        {/* <ul>{listNums}</ul> */}
+
+        <IconList listOfIDs = {this.state.listOfIDs} />
 
       </div>
     );
