@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../SearchCriteria.css';
 
 class SearchCriteria extends Component {
     constructor(props) {
@@ -10,7 +11,7 @@ class SearchCriteria extends Component {
     }
   render() {
     return (
-      <div>
+      <div id='SearchCriteria'>
        This is a Search Criteria For the Category {this.state.category}
       </div>
     )
