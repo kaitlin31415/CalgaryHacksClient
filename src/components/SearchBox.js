@@ -14,19 +14,19 @@ class SearchBox extends Component {
     return (
       <div id='SearchBox'>
         Location
-        <SearchCriteria category="Location" />
+        <SearchCriteria category="Location" options={["Mac Hall","Nursing","Kinesiology", "ICT"]} />
 
         Dietary Restrictions
-        <SearchCriteria category="Medical" />
-        <SearchCriteria category="LifeStyle" />
-        <SearchCriteria category="Religious" />
+        <SearchCriteria category="Medical" options={[1,2,3,4]} />
+        <SearchCriteria category="LifeStyle" options={[1,2,3,4]} />
+        <SearchCriteria category="Religious" options={[1,2,3,4]} />
         Cuisine: 
-        <SearchCriteria category="Cuisine" />
+        <SearchCriteria category="Cuisine" options={[1,2,3,4]} />
         Restaurant:
-        <SearchCriteria category="Restaurant" />
+        <SearchCriteria category="Restaurant" options={[1,2,3,4]} />
         Flavours: 
-        <SearchCriteria category="Flavours" />
-        
+        <SearchCriteria category="Flavours" options={[1,2,3,4]} />
+
       </div>
     )
   }
