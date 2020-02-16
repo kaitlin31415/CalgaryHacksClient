@@ -46,7 +46,7 @@ var burgerDiet = [celeryIcon, fishFreeIcon];
 var bakechefFlavor = [savoryIcon];
 var bakechefDiet = [fishFreeIcon];
 
-var sushiDiet = [lactoseIcon,porkIcon,];
+var sushiDiet = [lactoseIcon,porkIcon,glutenIcon];
 
 var trying = 0;
 
@@ -84,8 +84,8 @@ const foodItems = [
     restaurant: "Umi Sushi",
     location: "MacHall",
     calories: 450, 
-    listOfFlavors: bakechefFlavor, 
-    listOfDiets: bakechefDiet
+    listOfFlavors: [savoryIcon, spicyIcon], 
+    listOfDiets: sushiDiet
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ const foodItems = [
     location: "MacHall",
     calories: 200, 
     listOfFlavors: [sweetIcon, savoryIcon], 
-    listOfDiets: sushiDiet
+    listOfDiets: [lactoseIcon,porkIcon]
 
   },  
 
@@ -139,8 +139,8 @@ class HomePage extends Component {
 
         <div id="hsecond">
         <img id="feedmelogo" src={feedMeButton}/>
-        <FoodItem foodId={foodItems[0].id} img= {foodItems[0].img} name= {foodItems[0].name} price={foodItems[0].price} restaurant= {foodItems[0].restaurant} location={foodItems[0].location} listOfFlavors={foodItems[0].listOfFlavors} listOfDiets={foodItems[0].listOfDiets} />
-        <FoodItem foodId={foodItems[1].id} img= {foodItems[1].img} name= {foodItems[1].name} price={foodItems[1].price} restaurant= {foodItems[1].restaurant} location={foodItems[1].location} listOfFlavors={foodItems[1].listOfFlavors} listOfDiets={foodItems[1].listOfDiets} />
+          <FoodItem foodId={foodItems[0].id} img= {foodItems[0].img} name= {foodItems[0].name} price={foodItems[0].price} restaurant= {foodItems[0].restaurant} location={foodItems[0].location} listOfFlavors={foodItems[0].listOfFlavors} listOfDiets={foodItems[0].listOfDiets} />
+          <FoodItem foodId={foodItems[1].id} img= {foodItems[1].img} name= {foodItems[1].name} price={foodItems[1].price} restaurant= {foodItems[1].restaurant} location={foodItems[1].location} listOfFlavors={foodItems[1].listOfFlavors} listOfDiets={foodItems[1].listOfDiets} />
           <FoodItem foodId={foodItems[2].id} img= {foodItems[2].img} name= {foodItems[2].name} price={foodItems[2].price} restaurant= {foodItems[2].restaurant} location={foodItems[2].location} listOfFlavors={foodItems[2].listOfFlavors} listOfDiets={foodItems[2].listOfDiets} />
           <FoodItem foodId={foodItems[3].id} img= {foodItems[3].img} name= {foodItems[3].name} price={foodItems[3].price} restaurant= {foodItems[3].restaurant} location={foodItems[3].location} listOfFlavors={foodItems[3].listOfFlavors} listOfDiets={foodItems[3].listOfDiets} />
           <FoodItem foodId={foodItems[4].id} img= {foodItems[4].img} name= {foodItems[4].name} price={foodItems[4].price} restaurant= {foodItems[4].restaurant} location={foodItems[4].location} listOfFlavors={foodItems[4].listOfFlavors} listOfDiets={foodItems[4].listOfDiets} />
