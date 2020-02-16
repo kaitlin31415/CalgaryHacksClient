@@ -8,9 +8,9 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-       tnjkafnkla.dnfk;ldsanfklaks
+       FEEDME I WANNA DIE
        <SearchBox></SearchBox>
-       <FoodItem name="BUrger" price={5.25} restaurant="A" location="" calories={100}  listOfFlavors={tempFlavor} listOfDiets={tempDiet} />
+       <FoodItem name="Burger" price={5.25} restaurant="A" location="MacHall" calories={100}  listOfFlavors={tempFlavor} listOfDiets={tempDiet} />
       </div>
     )
   }

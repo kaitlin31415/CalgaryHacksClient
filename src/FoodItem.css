@@ -1,6 +1,6 @@
 #FoodItem{
-    width: 1000px;
-    height: 700px;
+    width: 700px;
+    height: 450px;
     border: 5px solid green;
     padding: 10px;
     margin: 20px;
@@ -16,9 +16,50 @@
 }
 
 #fisecond {
-    width: 500px;
+    width: 300px;
+    font-size: 15px;
 }
 
 #fithird {
     width: 200px;
+}
+
+#ItemPriceIcon {
+    float:left;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+#ItemPrice {
+    overflow:hidden;
+}
+
+#RestaurantIcon {
+    float:left;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+#RestaurantName {
+    overflow:hidden;
+}
+
+#LocationIcon {
+    float:left;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+#LocationName {
+    overflow:hidden;
+}
+
+#CaloriesIcon {
+    float:left;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+#CaloriesAmount {
+    overflow:hidden;
 }
