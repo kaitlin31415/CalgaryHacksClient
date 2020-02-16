@@ -38,7 +38,7 @@ class FoodItem extends Component {
         
 
         <div id= 'foodId'>
-          FOOD ID: {this.state.foodId}
+          Choice: {this.state.foodId}
         </div>
 
         <div id='ItemPriceIcon'>
