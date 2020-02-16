@@ -16,10 +16,10 @@ class FunButton extends Component {
 
     handleClick() {
         const min = 1;
-        const max = 4;
+        const max = 6;
         const rand = min + Math.random() * (max - min);
         randomNum = Math.round(rand);
-        if (randomNum < 1 || randomNum > 3) {
+        if (randomNum < 1 || randomNum > 6) {
             randomNum = 2;
         }
 
