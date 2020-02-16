@@ -142,8 +142,6 @@ class HomePage extends Component {
         <div id="hthird">
           <Profile image={dinoDefault} />
 
-          <button onClick={trying = Math.random() *15} > Try Me</button>
-
           <FunButton />
 
         </div>
