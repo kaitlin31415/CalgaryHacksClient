@@ -38,6 +38,7 @@ var feedMeButton = require('../images/feedMeButton.png');
 var burgerImg = require('../images/burger.jpg');
 var bakechefImg = require('../images/bakechef.jpg');
 var sushiImg = require('../images/sushi.jpg');
+var takImg = require('../images/takoyaki.jpg');
 
 var burgerFlavor = [sweetIcon, savoryIcon, saltyIcon];
 var burgerDiet = [celeryIcon, fishFreeIcon];
@@ -85,7 +86,7 @@ const foodItems = [
   },
   {
     id: 4,
-    img: sushiImg,
+    img: takImg,
     name: "Takoyaki",
     restaurant: "Umi Sushi Express",
     location: "MacHall",
