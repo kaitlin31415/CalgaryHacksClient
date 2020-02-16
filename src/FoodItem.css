@@ -1,0 +1,24 @@
+#FoodItem{
+    width: 1000px;
+    height: 700px;
+    border: 5px solid green;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+}
+
+#fifirst, #fisecond, #fithird {
+    float: left;
+}
+
+#fifirst {
+    width: 200px;
+}
+
+#fisecond {
+    width: 500px;
+}
+
+#fithird {
+    width: 200px;
+}
