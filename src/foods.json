@@ -1,0 +1,249 @@
+  {
+
+"p1" :{
+  "name" : "Sinful Cinnamon",
+  "price" : 5.25,
+  "imageRef" : "https://d3ciwvs59ifrt8.cloudfront.net/9fddc13e-7aa2-4186-b0f9-e87f65daaff7/98d7e737-ca94-4062-b612-eef0fa820815_h.jpg",
+  "restaurant" :{
+    "name" : "Wetzel's Pretzel",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "celeryFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+"p2" :{
+  "name" : "Wetzel's Original",
+  "price" : 6.00,
+  "imageRef" : "https://d3ciwvs59ifrt8.cloudfront.net/9fddc13e-7aa2-4186-b0f9-e87f65daaff7/a5b88f32-c25b-4bad-8e51-098392af3598_h.jpg",
+  "restaurant" :{
+    "name" : "Wetzel's Pretzel",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "celeryFree"}
+  
+  ],
+  
+  "taste" : [{"type": "sweet"}
+  ]
+},
+"p3" :{
+  "name" : "Almond Crunch",
+  "price" : 6.00,
+  "imageRef" : "https://d3ciwvs59ifrt8.cloudfront.net/9fddc13e-7aa2-4186-b0f9-e87f65daaff7/6708dd9f-0a69-43d4-9aa9-0a861f73f926_h.jpg",
+  "restaurant" :{
+    "name" : "Wetzel's Pretzel",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "celeryFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ]
+},
+"p4" :{
+  "name" : "Pepperoni Twist",
+  "price" : 6.50,
+  "imageRef" : "https://d3ciwvs59ifrt8.cloudfront.net/03f25a88-c595-4787-8894-80f7dce1dfa2/313517a7-ef8f-40b9-8c89-b60f22d91310_h.jpg",
+  "restaurant" :{
+    "name" : "Wetzel's Pretzel",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "celeryFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+"p5" :{
+  "name" : "Jalapeno Cheese Melt",
+  "price" : 7.00,
+  "imageRef" : "https://d3ciwvs59ifrt8.cloudfront.net/9fddc13e-7aa2-4186-b0f9-e87f65daaff7/322b7acc-b1a7-4a36-abbf-c808ca0739bd_h.jpg",
+  "restaurant" :{
+    "name" : "Wetzel's Pretzel",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "celeryFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}, {"type": "spicy"}
+  ]
+},
+"o1" :{
+  "name" : "Chicken Opa Platter",
+  "price" : 8.00,
+  "imageRef" : "https://opasouvlaki.ca/opawp/wp-content/uploads/2017/09/OPA_Platter.png",
+  "restaurant" :{
+    "name" : "OPA",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}, {"type": "eggFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+"o2" :{
+  "name" : "Chicken Pita Wrap",
+  "price" : 8.50,
+  "imageRef" : "https://opasouvlaki.ca/opawp/wp-content/uploads/2017/09/ChickenWrapAndFries.png",
+  "restaurant" :{
+    "name" : "OPA",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}, {"type": "eggFree"}
+  ],
+  
+  "taste" : [{"type": "savory"}
+  ] 
+},
+
+"o3" :{
+  "name" : "Low Carb Caesar Salad",
+  "price" : 7.50,
+  "imageRef" : "https://opasouvlaki.ca/opawp/wp-content/uploads/2017/09/low-carb-caesar.png",
+  "restaurant" :{
+    "name" : "OPA",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "nutFree"}, {"type": "sour"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+
+"o4" :{
+  "name" : "Rice",
+  "price" : 6.00,
+  "imageRef" : "https://opasouvlaki.ca/opawp/wp-content/uploads/2017/09/Rice.png",
+  "restaurant" :{
+    "name" : "OPA",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}, {"type": "eggFree"}, {"type": "halal"}, {"type": "kosher"}, {"type": "eggFree"}, {"type": "porkFree"}, {"type": "peanutFree"}, {"type": "sugarFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+
+"o5" :{
+  "name" : "Spanakopita Platter",
+  "price" : 9.00,
+  "imageRef" : "https://opasouvlaki.ca/food/spanakopita-platter/",
+  "restaurant" :{
+    "name" : "OPA",
+    "location": "Mac Hall"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}, {"type": "halal"}, {"type": "peanutFree"}, {"type": "vegetarian"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+
+"k1" :{
+  "name" : "Pepperoni Pizza Cone",
+  "price" : 8.00,
+  "imageRef" : "https://i.ytimg.com/vi/gC08FL8ocjg/hqdefault.jpg",
+  "restaurant" :{
+    "name" : "Konz Pizza",
+    "location": "ICT"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}, {"type": "spicy"}
+  ] 
+},
+"k2" :{
+  "name" : "Garden Pizza Cone",
+  "price" : 8.50,
+  "imageRef" : "https://pbs.twimg.com/media/DhhS31_XkAE5cf8.jpg",
+  "restaurant" :{
+    "name" : "Konz Pizza",
+    "location": "ICT"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}
+  ] 
+},
+
+"k3" :{
+  "name" : "Caramel Crunch Icecream",
+  "price" : 5.00,
+  "imageRef" : "https://cdn.schwans.com/media/images/products/51777-1-1540.jpg",
+  "restaurant" :{
+   "name" : "Konz Pizza",
+    "location": "ICT"
+    
+  },
+  "complying" : [
+  
+  ],
+  
+  "taste" : [{"type": "sweet"}
+  ] 
+},
+
+"k4" :{
+  "name" : "Spaghetti and Meatballs",
+  "price" : 9.00,
+  "imageRef" : "https://img.grouponcdn.com/deal/vNYe2LJKKEZnTyERq9TZ/9D-2048x1229/v1/t440x300.jpg",
+  "restaurant" :{
+    "name" : "Konz Pizza",
+    "location": "ICT"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}, {"type": "eggFree"}, {"type": "peanutFree"}, {"type": "sugarFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "salty"}, {"type": "sour"}
+  ] 
+},
+
+"k5" :{
+  "name" : "Stonebaked Pizza",
+  "price" : 12.00,
+  "imageRef" : "https://img.grouponcdn.com/deal/3dnCk74ErZW96vW9kNPptNeQRodf/3d-2048x1229/v1/c700x420.jpg",
+  "restaurant" :{
+    "name" : "Konz Pizza",
+    "location": "ICT"
+    
+  },
+  "complying" : [{"type": "fishFree"}, {"type": "nutFree"}, {"type": "peanutFree"}
+  
+  ],
+  
+  "taste" : [{"type": "savory"}, {"type": "spicy"}
+  ] 
+}
+  
+}
