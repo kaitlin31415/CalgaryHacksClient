@@ -45,6 +45,8 @@ var burgerDiet = [celeryIcon, fishFreeIcon];
 var bakechefFlavor = [savoryIcon];
 var bakechefDiet = [fishFreeIcon];
 
+var trying = 0;
+
 
 
 class HomePage extends Component {
@@ -55,11 +57,11 @@ class HomePage extends Component {
 
         <div id="hfirst">
           <SearchBox></SearchBox>
-          <FeedMeButton />
+
         </div>
 
         <div id="hsecond">
-        <img id="feedmelogo" src={feedMeButton}/>
+          <img id="feedmelogo" src={feedMeButton} />
           <FoodItem img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
           <FoodItem img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
           <FoodItem img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
@@ -67,9 +69,11 @@ class HomePage extends Component {
         </div>
 
         <div id="hthird">
-        <Profile image={dinoDefault}/>
+          <Profile image={dinoDefault} />
 
-        <FunButton />
+          <button onClick={trying = Math.random() *15} > Try Me</button>
+
+          <FunButton />
 
         </div>
       </div>

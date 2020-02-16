@@ -6,12 +6,9 @@ class FeedMeButton extends Component {
       
   
       // This binding is necessary to make `this` work in the callback
-      this.handleClick = this.handleClick.bind(this);
+      this.handleClick = this.props.handleClick.bind(this);
     }
   
-    handleClick() {
-      console.log(this.state.checkedItems);
-    }
   
     render() {
       return (
