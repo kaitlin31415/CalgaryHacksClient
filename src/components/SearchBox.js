@@ -22,11 +22,11 @@ class SearchBox extends Component {
         <SearchCriteria category="LifeStyle" options={["Pescatarian","Vegan","Vegetarian"]} />
         <SearchCriteria category="Religious" options={["Halal","Kosher"]} />
         Cuisine: 
-        <SearchCriteria category="Cuisine" options={["ALL", "American","Chinese","Indian","Italian","Japanese", "Mexican", "Thai", "Vietnamese"]} />
+        <SearchCriteria category="Cuisine" options={["ALL", "American","Canadian","Chinese","Greek","Indian","Italian","Japanese", "Mexican", "Thai", "Vietnamese"]} />
         Restaurant:
         <SearchCriteria category="Restaurant" options={["ALL",2,3,4]} />
         Flavours: 
-        <SearchCriteria category="Flavours" options={["ALL", "Salty","Savoury","Sour","Spicy","Sweet"]} />
+        <SearchCriteria category="Flavours" options={["ALL", "Salty","Savory","Sour","Spicy","Sweet"]} />
         <Slider></Slider>
       </div>
     )
