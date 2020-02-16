@@ -27,7 +27,9 @@ class SearchBox extends Component {
         <SearchCriteria category="Restaurant" options={["ALL",2,3,4]} />
         Flavours: 
         <SearchCriteria category="Flavours" options={["ALL", "Salty","Savoury","Sour","Spicy","Sweet"]} />
-        <Slider></Slider>
+        <Slider title="Budget" min={0} max={100}></Slider>
+        <Slider title="Calories" min={0} max={4000}></Slider>
+
       </div>
     )
   }
