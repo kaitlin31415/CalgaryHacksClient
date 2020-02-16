@@ -14,18 +14,18 @@ class SearchBox extends Component {
   render() {
     return (
       <div id='SearchBox'>
-        Location
+        <h2>Location</h2>
         <SearchCriteria category="Location" options={["Mac Hall","Nursing","Kinesiology", "ICT"]} />
 
-        Dietary Restrictions
+        <h2>Dietary Restrictions</h2>
         <SearchCriteria category="Medical" options={["Celery Free", "Egg Free","Fish Free", "Gluten Free","Lactose Free", "Nuts Free", "Peanut Free", "Pork Free", "Soy Free", "Sugar Free"]} />
         <SearchCriteria category="LifeStyle" options={["Pescatarian","Vegan","Vegetarian"]} />
         <SearchCriteria category="Religious" options={["Halal","Kosher"]} />
-        Cuisine: 
+        <h2>Cuisine:</h2> 
         <SearchCriteria category="Cuisine" options={["ALL", "American","Canadian","Chinese","Greek","Indian","Italian","Japanese", "Mexican", "Thai", "Vietnamese"]} />
-        Restaurant:
+        <h2>Restaurant:</h2>
         <SearchCriteria category="Restaurant" options={["ALL",2,3,4]} />
-        Flavours: 
+        <h2>Flavours:</h2>
         <SearchCriteria category="Flavours" options={["ALL", "Salty","Savoury","Sour","Spicy","Sweet"]} />
         <Slider title="Budget" min={0} max={100}></Slider>
         <Slider title="Calories" min={0} max={4000}></Slider>

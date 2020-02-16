@@ -2,7 +2,8 @@
     width: 200px;
     padding: 5px;
     margin: 10px;
-    text-align: center;
+    text-align: left;
+    font-size: 15px;
 }
 
 select {

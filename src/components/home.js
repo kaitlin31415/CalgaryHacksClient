@@ -47,11 +47,23 @@ var bakechefDiet = [fishFreeIcon];
 
 var trying = 0;
 
+const foodItems = [
+  {
+    id: 1,
+    img: burgerImg,
+    name: "Super Thick Bacon Burger",
+    restaurant: "Carls Jr.",
+    location: "MacHall",
+    calories: 900, 
+    listOfFlavors: burgerFlavor, 
+    listOfDiets: burgerDiet
 
+  }]
 
 class HomePage extends Component {
 
   render() {
+
     return (
       <div>
 
@@ -61,10 +73,11 @@ class HomePage extends Component {
         </div>
 
         <div id="hsecond">
-          <img id="feedmelogo" src={feedMeButton} />
-          <FoodItem img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
-          <FoodItem img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
-          <FoodItem img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
+        <img id="feedmelogo" src={feedMeButton}/>
+          <FoodItem foodId={foodItems[0].id} name= {foodItems[0].name} price={foodItems[0].price} restaurant= {foodItems[0].restaurant} location={foodItems[0].location} listOfFlavors={foodItems[0].listOfFlavors} listOfDiets={foodItems[0].listOfDiets} />
+          <FoodItem foodId={1} img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
+          <FoodItem foodId={2} img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
+          <FoodItem foodId={3} img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
 
         </div>
 
