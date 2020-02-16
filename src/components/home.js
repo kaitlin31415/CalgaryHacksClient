@@ -45,6 +45,8 @@ var burgerDiet = [celeryIcon, fishFreeIcon];
 var bakechefFlavor = [savoryIcon];
 var bakechefDiet = [fishFreeIcon];
 
+var sushiDiet = [lactoseIcon,porkIcon,];
+
 var trying = 0;
 
 const foodItems = [
@@ -81,7 +83,39 @@ const foodItems = [
     listOfFlavors: bakechefFlavor, 
     listOfDiets: bakechefDiet
   },
+  {
+    id: 4,
+    img: sushiImg,
+    name: "Takoyaki",
+    restaurant: "Umi Sushi Express",
+    location: "MacHall",
+    calories: 200, 
+    listOfFlavors: [sweetIcon, savoryIcon], 
+    listOfDiets: sushiDiet
 
+  },  
+
+  {
+    id: 5,
+    img: bakechefImg,
+    name: "Pizza Bun",
+    restaurant: "Bake Chef",
+    location: "MacHall",
+    calories: 175, 
+    listOfFlavors: bakechefFlavor, 
+    listOfDiets: bakechefDiet
+  },
+
+  {
+    id: 6,
+    img: bakechefImg,
+    name: "Hotdog Bun",
+    restaurant: "Bake Chef",
+    location: "MacHall",
+    calories: 450, 
+    listOfFlavors: bakechefFlavor, 
+    listOfDiets: bakechefDiet
+  },
 ]
 
 class HomePage extends Component {
