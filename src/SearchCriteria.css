@@ -16,6 +16,10 @@ svg {
     color: #ffcc00;
 }
 
+p {
+    height: 100px;
+}
+
 #first {
     float:left;
     padding: 5px;

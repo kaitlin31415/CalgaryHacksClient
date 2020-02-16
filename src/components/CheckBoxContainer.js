@@ -27,7 +27,7 @@ class CheckboxContainer extends Component {
           this.props.itemList.map(item => (
             <label key={item}>
               {item}
-              <li id="boxes"><Checkbox id="checkboxxxx" name={item} checked={this.state.checkedItems.get(item)} onChange={this.handleChange} /></li>
+              <li id="boxes"><Checkbox name={item} checked={this.state.checkedItems.get(item)} onChange={this.handleChange} /></li>
             </label>
           ))
         }
