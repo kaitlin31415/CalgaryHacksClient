@@ -16,11 +16,11 @@ class FunButton extends Component {
 
     handleClick() {
         const min = 1;
-        const max = 16;
+        const max = 4;
         const rand = min + Math.random() * (max - min);
         randomNum = Math.round(rand);
-        if (randomNum < 1 || randomNum > 15) {
-            randomNum = 3;
+        if (randomNum < 1 || randomNum > 3) {
+            randomNum = 2;
         }
 
         this.setState(state => ({
