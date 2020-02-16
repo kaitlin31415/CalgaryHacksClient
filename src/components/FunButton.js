@@ -33,9 +33,11 @@ class FunButton extends Component {
 
     render() {
         return (
-            <button onClick={this.handleClick}>
-                {this.state.isToggleOn ? 'SURPRISE ME' : randomNum}
-            </button>
+            <div>
+                <h1>{randomNum}</h1>
+                <button onClick={this.handleClick}>
+                    SURPRISE ME
+                </button> </div>
         );
     }
 }

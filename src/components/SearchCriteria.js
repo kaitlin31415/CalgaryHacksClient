@@ -40,10 +40,7 @@ class SearchCriteria extends Component {
                 </div>
                 <div id="second">
                     <CheckboxContainer itemList={this.state.options} />
-                    <select name="category" multiple id="dropdown" onChange={this.handleDropdownChange}> 
-                        <option value="" selected disabled> -Select Category- </option>
-                        {listOptions}
-                    </select>
+
                 </div>
 
             </div>

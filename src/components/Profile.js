@@ -22,7 +22,7 @@ class Profile extends Component {
         <section className="one-fourth" id="html">
           <img id="profilepic" src={this.state.image} />
         </section>
-        <h1>PROFILE NAME</h1>
+        <h1>Jay Park</h1>
         <img src={logo}/>
         <br></br>
         <p>Favourites:</p>
