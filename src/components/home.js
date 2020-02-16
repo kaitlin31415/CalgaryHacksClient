@@ -4,6 +4,7 @@ import FoodItem from './FoodItem';
 import FunButton from './FunButton';
 import '../home.css';
 import Profile from './Profile';
+import FeedMeButton from './FeedMeButton';
 
 var dinoArtsIcon = require('../images/dinoArts.png');
 var dinoScienceIcon = require('../images/dinoScience.png');
@@ -54,6 +55,7 @@ class HomePage extends Component {
 
         <div id="hfirst">
           <SearchBox></SearchBox>
+          <FeedMeButton />
         </div>
 
         <div id="hsecond">
