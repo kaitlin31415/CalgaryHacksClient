@@ -1,3 +1,7 @@
-#hfirst, #hsecond{
+#hfirst, #hsecond, #hthird{
     float: left;
+}
+
+#feedmelogo{
+    padding-top: 10px;
 }

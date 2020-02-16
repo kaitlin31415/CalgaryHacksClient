@@ -8,7 +8,7 @@ import Profile from './Profile';
 var dinoArtsIcon = require('../images/dinoArts.png');
 var dinoScienceIcon = require('../images/dinoScience.png');
 var dinoNurseIcon = require('../images/dinoNurse.png');
-var dinoDefault = require("../images/dinoFucked.png");
+var dinoDefault = require("../images/dinoNurse.png");
 
 var saltyIcon = require('../images/salty.png');
 var sweetIcon = require('../images/sweet.png');
@@ -32,6 +32,8 @@ var sugarIcon = require('../images/sugar.png');
 var veganIcon = require('../images/vegan.png');
 var vegetarianIcon = require('../images/vegetarian.png');
 
+var feedMeButton = require('../images/feedMeButton.png');
+
 var tempFlavor = [sweetIcon, savoryIcon, sourIcon];
 var tempDiet = [veganIcon, vegetarianIcon, glutenIcon, kosherIcon];
 class HomePage extends Component {
@@ -45,12 +47,13 @@ class HomePage extends Component {
         </div>
 
         <div id="hsecond">
+        <img id="feedmelogo" src={feedMeButton}/>
           <FoodItem name="Burger" price={5.25} restaurant="A" location="MacHall" calories={100} listOfFlavors={tempFlavor} listOfDiets={tempDiet} />
         </div>
 
-        FEEDME I WANNA DIE
-       <FunButton />
+        <div id="hthird">
         <Profile image={dinoDefault}/>
+        </div>
       </div>
     )
   }
