@@ -57,6 +57,8 @@ class FoodItem extends Component {
 
         <div id="fithird">
         <IconList listOfIcons={this.state.listOfFlavors} />
+        </div>
+        <div id="fifourth">
         <IconList listOfIcons={this.state.listOfDiets} />
         </div>
       </div>
