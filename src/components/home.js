@@ -34,8 +34,18 @@ var vegetarianIcon = require('../images/vegetarian.png');
 
 var feedMeButton = require('../images/feedMeButton.png');
 
-var tempFlavor = [sweetIcon, savoryIcon, sourIcon];
-var tempDiet = [veganIcon, vegetarianIcon, glutenIcon, kosherIcon];
+var burgerImg = require('../images/burger.jpg');
+var bakechefImg = require('../images/bakechef.jpg');
+var sushiImg = require('../images/sushi.jpg');
+
+var burgerFlavor = [sweetIcon, savoryIcon, saltyIcon];
+var burgerDiet = [celeryIcon, fishFreeIcon];
+
+var bakechefFlavor = [savoryIcon];
+var bakechefDiet = [fishFreeIcon];
+
+
+
 class HomePage extends Component {
 
   render() {
@@ -48,11 +58,17 @@ class HomePage extends Component {
 
         <div id="hsecond">
         <img id="feedmelogo" src={feedMeButton}/>
-          <FoodItem name="Burger" price={5.25} restaurant="A" location="MacHall" calories={100} listOfFlavors={tempFlavor} listOfDiets={tempDiet} />
+          <FoodItem img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
+          <FoodItem img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
+          <FoodItem img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
+
         </div>
 
         <div id="hthird">
         <Profile image={dinoDefault}/>
+
+        <FunButton />
+
         </div>
       </div>
     )
