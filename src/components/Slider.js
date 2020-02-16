@@ -15,7 +15,7 @@ class Slider extends Component {
 
         return (
             <div id='Slider'>
-                <h1>{this.state.title}</h1>
+                <h1 id="slidertitle">{this.state.title}:</h1>
 
                 <input name="slider" type="range" min={this.state.min} max={this.state.max} />
 

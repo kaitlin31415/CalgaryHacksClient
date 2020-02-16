@@ -39,8 +39,6 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        FEEDME I WANNA DIE
-       <FunButton />
 
         <div id="hfirst">
           <SearchBox></SearchBox>
@@ -49,7 +47,10 @@ class HomePage extends Component {
         <div id="hsecond">
           <FoodItem name="Burger" price={5.25} restaurant="A" location="MacHall" calories={100} listOfFlavors={tempFlavor} listOfDiets={tempDiet} />
         </div>
-        <Profile image={dinoNurseIcon}/>
+
+        FEEDME I WANNA DIE
+       <FunButton />
+        <Profile image={dinoDefault}/>
       </div>
     )
   }
