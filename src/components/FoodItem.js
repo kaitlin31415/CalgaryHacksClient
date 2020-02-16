@@ -2,10 +2,17 @@ import React, { Component } from 'react';
 import IconList from './IconList';
 import '../FoodItem.css';
 
+var burgerImg = require('../images/burger.jpg');
+var bakechefImg = require('../images/bakechef.jpg');
+var sourIcon = require('../images/sour.png');
+var spicyIcon = require('../images/spicy.png');
+var sushiImg = require('../images/sushi.jpg');
+
 class FoodItem extends Component {
   constructor(props) {
     super();
     this.state = {
+      img: props.img,
       name: props.name,
       price: props.price,
       restaurant: props.restaurant,
@@ -20,7 +27,9 @@ class FoodItem extends Component {
     return (
       <div id="FoodItem">
         <div id="fifirst">
-          <h1> UGH </h1>
+        <section className="one-fourth" id="html">
+            <img id="IconsOfRestrictions" src={this.state.img} />
+            </section>
         </div>
 
         <div id="fisecond">
