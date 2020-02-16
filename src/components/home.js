@@ -4,6 +4,7 @@ import FoodItem from './FoodItem';
 import FunButton from './FunButton';
 import '../home.css';
 import Profile from './Profile';
+import FeedMeButton from './FeedMeButton';
 
 var dinoArtsIcon = require('../images/dinoArts.png');
 var dinoScienceIcon = require('../images/dinoScience.png');
@@ -44,30 +45,72 @@ var burgerDiet = [celeryIcon, fishFreeIcon];
 var bakechefFlavor = [savoryIcon];
 var bakechefDiet = [fishFreeIcon];
 
+var trying = 0;
 
+const foodItems = [
+  {
+    id: 1,
+    img: burgerImg,
+    name: "Super Thick Bacon Burger",
+    restaurant: "Carls Jr.",
+    location: "MacHall",
+    calories: 900, 
+    listOfFlavors: burgerFlavor, 
+    listOfDiets: burgerDiet
+
+  },  
+
+  {
+    id: 2,
+    img: bakechefImg,
+    name: "Vietnamese Sub",
+    restaurant: "Bake Chef",
+    location: "MacHall",
+    calories: 800, 
+    listOfFlavors: bakechefFlavor, 
+    listOfDiets: bakechefDiet
+  },
+
+  {
+    id: 3,
+    img: sushiImg,
+    name: "Fresh Sushi",
+    restaurant: "Umi Sushi",
+    location: "MacHall",
+    calories: 450, 
+    listOfFlavors: bakechefFlavor, 
+    listOfDiets: bakechefDiet
+  },
+
+]
 
 class HomePage extends Component {
 
   render() {
+
     return (
       <div>
 
         <div id="hfirst">
           <SearchBox></SearchBox>
+
         </div>
 
         <div id="hsecond">
         <img id="feedmelogo" src={feedMeButton}/>
-          <FoodItem img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
-          <FoodItem img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
-          <FoodItem img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
+          <FoodItem foodId={foodItems[1].id} name= {foodItems[1].name} price={foodItems[1].price} restaurant= {foodItems[1].restaurant} location={foodItems[1].location} listOfFlavors={foodItems[1].listOfFlavors} listOfDiets={foodItems[1].listOfDiets} />
+          <FoodItem foodId={1} img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
+          <FoodItem foodId={2} img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
+          <FoodItem foodId={3} img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
 
         </div>
 
         <div id="hthird">
-        <Profile image={dinoDefault}/>
+          <Profile image={dinoDefault} />
 
-        <FunButton />
+          <button onClick={trying = Math.random() *15} > Try Me</button>
+
+          <FunButton />
 
         </div>
       </div>
