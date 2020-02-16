@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../SearchBox.css';
 import SearchCriteria from './SearchCriteria';
+import Slider from './Slider';
 
 class SearchBox extends Component {
     constructor(props) {
@@ -26,7 +27,7 @@ class SearchBox extends Component {
         <SearchCriteria category="Restaurant" options={["ALL",2,3,4]} />
         Flavours: 
         <SearchCriteria category="Flavours" options={["ALL", "Salty","Savoury","Sour","Spicy","Sweet"]} />
-
+        <Slider></Slider>
       </div>
     )
   }
