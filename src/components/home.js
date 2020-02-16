@@ -68,6 +68,9 @@ class HomePage extends Component {
 
         <div id="hthird">
         <Profile image={dinoDefault}/>
+
+        <FunButton />
+
         </div>
       </div>
     )
