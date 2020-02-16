@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../IconList.css';
 
 var saltyIcon = require('../images/salty.png');
 var sweetIcon = require('../images/sweet.png');
@@ -86,7 +87,7 @@ class IconList extends Component {
         // );
         const anotherTry = this.state.listOfIcons.map((item) => 
             <section className="one-fourth" id="html">
-            <img src={item} />
+            <img id="IconsOfRestrictions" src={item} />
             </section>
         );
         return (

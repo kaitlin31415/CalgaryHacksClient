@@ -16,12 +16,15 @@
 }
 
 #fisecond {
-    width: 300px;
+    width: 250px;
     font-size: 15px;
 }
 
 #fithird {
-    width: 200px;
+    width: 100px;
+}
+#fiforth {
+    width: 100px;
 }
 
 #ItemPriceIcon {
