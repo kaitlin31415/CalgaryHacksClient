@@ -13,10 +13,10 @@ class SearchBox extends Component {
   render() {
     return (
       <div id='SearchBox'>
-        Location
+        Location:
         <SearchCriteria category="Location" />
 
-        Dietary Restrictions
+        Dietary Restrictions:
         <SearchCriteria category="Medical" />
         <SearchCriteria category="LifeStyle" />
         <SearchCriteria category="Religious" />
