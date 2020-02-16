@@ -58,7 +58,31 @@ const foodItems = [
     listOfFlavors: burgerFlavor, 
     listOfDiets: burgerDiet
 
-  }]
+  },  
+
+  {
+    id: 2,
+    img: bakechefImg,
+    name: "Vietnamese Sub",
+    restaurant: "Bake Chef",
+    location: "MacHall",
+    calories: 800, 
+    listOfFlavors: bakechefFlavor, 
+    listOfDiets: bakechefDiet
+  },
+
+  {
+    id: 3,
+    img: sushiImg,
+    name: "Fresh Sushi",
+    restaurant: "Umi Sushi",
+    location: "MacHall",
+    calories: 450, 
+    listOfFlavors: bakechefFlavor, 
+    listOfDiets: bakechefDiet
+  },
+
+]
 
 class HomePage extends Component {
 
@@ -74,7 +98,7 @@ class HomePage extends Component {
 
         <div id="hsecond">
         <img id="feedmelogo" src={feedMeButton}/>
-          <FoodItem foodId={foodItems[0].id} name= {foodItems[0].name} price={foodItems[0].price} restaurant= {foodItems[0].restaurant} location={foodItems[0].location} listOfFlavors={foodItems[0].listOfFlavors} listOfDiets={foodItems[0].listOfDiets} />
+          <FoodItem foodId={foodItems[1].id} name= {foodItems[1].name} price={foodItems[1].price} restaurant= {foodItems[1].restaurant} location={foodItems[1].location} listOfFlavors={foodItems[1].listOfFlavors} listOfDiets={foodItems[1].listOfDiets} />
           <FoodItem foodId={1} img={burgerImg} name="Super Thick Bacon Burger" price={11.25} restaurant="Carls Jr." location="MacHall" calories={900} listOfFlavors={burgerFlavor} listOfDiets={burgerDiet} />
           <FoodItem foodId={2} img={bakechefImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
           <FoodItem foodId={3} img={sushiImg} name="Vietnamese Sub" price={10.55} restaurant="BakeChef" location="MacHall" calories={800} listOfFlavors={bakechefFlavor} listOfDiets={bakechefDiet} />
