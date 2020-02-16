@@ -1,6 +1,26 @@
 #SearchCriteria {
     width: 200px;
-    border: 15px solid green;
-    padding: 50px;
+    border: 5px solid green;
+    padding: 15px;
     margin: 20px;
+    text-align: center;
+}
+
+select {
+    width: 200px;
+}
+
+svg {
+    height: 30px;
+    width: auto;
+    color: lavender;
+}
+
+#first {
+    float:left;
+    padding: 5px;
+}
+
+#second {
+    overflow: hidden;
 }
