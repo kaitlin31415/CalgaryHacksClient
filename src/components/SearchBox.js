@@ -17,9 +17,9 @@ class SearchBox extends Component {
         <SearchCriteria category="Location" options={["Mac Hall","Nursing","Kinesiology", "ICT"]} />
 
         Dietary Restrictions
-        <SearchCriteria category="Medical" options={[1,2,3,4]} />
-        <SearchCriteria category="LifeStyle" options={[1,2,3,4]} />
-        <SearchCriteria category="Religious" options={[1,2,3,4]} />
+        <SearchCriteria category="Medical" options={["Celery Free", "Egg Free","Fish Free", "Gluten Free","Lactose Free", "Nuts Free", "Peanut Free", "Pork Free", "Soy Free", "Sugar Free"]} />
+        <SearchCriteria category="LifeStyle" options={["Pescatarian","Vegan","Vegetarian"]} />
+        <SearchCriteria category="Religious" options={["Halal","Kosher"]} />
         Cuisine: 
         <SearchCriteria category="Cuisine" options={[1,2,3,4]} />
         Restaurant:
