@@ -39,6 +39,8 @@ var burgerImg = require('../images/burger.jpg');
 var bakechefImg = require('../images/bakechef.jpg');
 var sushiImg = require('../images/sushi.jpg');
 var takImg = require('../images/takoyaki.jpg');
+var pizzaBun = require('../images/pizzabun.png');
+var hotdog = require('../images/hotdog.jpg');
 
 var burgerFlavor = [sweetIcon, savoryIcon, saltyIcon];
 var burgerDiet = [celeryIcon, fishFreeIcon];
@@ -46,7 +48,7 @@ var burgerDiet = [celeryIcon, fishFreeIcon];
 var bakechefFlavor = [savoryIcon];
 var bakechefDiet = [fishFreeIcon];
 
-var sushiDiet = [lactoseIcon,porkIcon,];
+var sushiDiet = [lactoseIcon,porkIcon];
 
 var trying = 0;
 
@@ -102,7 +104,7 @@ const foodItems = [
 
   {
     id: 5,
-    img: bakechefImg,
+    img: pizzaBun,
     name: "Pizza Bun",
     price: 3.55,
     restaurant: "Bake Chef",
@@ -114,7 +116,7 @@ const foodItems = [
 
   {
     id: 6,
-    img: bakechefImg,
+    img: hotdog,
     name: "Hotdog Bun",
     price: 3.55,
     restaurant: "Bake Chef",
