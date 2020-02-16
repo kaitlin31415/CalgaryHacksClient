@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+var randomNum;
+
 class FunButton extends Component {
     constructor(props) {
       super(props);
@@ -10,15 +12,25 @@ class FunButton extends Component {
     }
   
     handleClick() {
+      const min = 1;
+      const max = 16;
+      const rand = min + Math.random() * (max - min);
+      randomNum = Math.round(rand);
+      if(randomNum < 1 || randomNum > 15) {
+        randomNum = 3;
+      }
+
       this.setState(state => ({
         isToggleOn: !state.isToggleOn
       }));
+
+      
     }
   
     render() {
       return (
         <button onClick={this.handleClick}>
-          {this.state.isToggleOn ? 'ON' : 'OFF'}
+          {this.state.isToggleOn ? 'SURPRISE ME' : randomNum}
         </button>
       );
     }
